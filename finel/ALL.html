@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Details</title>
+    <link rel="stylesheet" href="styles2.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js.js" async></script>
+  </head>
+  <body>
+    <section class="mine">
+      <h1 class="webname">Car Details</h1>
+    </section>
+
+    <header class="a">
+      <nav class="aa">
+        <a href="index.html"><h4>HOME</h4></a>
+        <a href="ALL.html"><h4>ALL</h4></a>
+        <a href="./aboutus.html"><h4>ABOUT US</h4></a>
+        <a href="./contactus.html"><h4>CONTACT US</h4></a>
+      </nav>
+    </header>
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')">
+        Show all
+      </button>
+      <button class="btn" onclick="filterSelection('nature')">modern</button>
+      <button class="btn" onclick="filterSelection('cars')">Classic</button>
+      <button class="btn" onclick="filterSelection('people')">Electric</button>
+    </div>
+    <div class="row">
+      <div class="column nature">
+        <div class="content">
+          <img
+            src="/asstes/images/Screenshot (53).png"
+            alt="2021 Cadillac CT5"
+            style="width: 100%"
+          />
+          <h4>2021 Cadillac CT5</h4>
+          <p></p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img
+            src="/asstes/images/Screenshot (75).png"
+            alt="Lights"
+            style="width: 100%"
+          />
+          <h4>2021 Mercedes S-Class</h4>
+          <p></p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+          <img
+            src="/asstes/images/Screenshot (63).png"
+            alt="Car"
+            style="width: 100%"
+          />
+          <h4>1955 Mercedes-Benz 300 SL</h4>
+          <p></p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+          <img
+            src="/asstes/images/Screenshot (69).png"
+            alt="Car"
+            style="width: 100%"
+          />
+          <h4>1989 BMW M3 Sport Evolution</h4>
+        </div>
+      </div>
+      <div class="column people">
+        <div class="content">
+          <img
+            src="/asstes/images/Screenshot (30).png"
+            alt="People"
+            style="width: 100%"
+          />
+          <h4>2021 tesla model X</h4>
+        </div>
+      </div>
+      <div class="column people">
+        <div class="content">
+          <img
+            src="/asstes/images/Screenshot (40).png"
+            alt="People"
+            style="width: 100%"
+          />
+          <h4>2021 tesla model Y</h4>
+        </div>
+      </div>
+    </div>
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="band-name">Car Details</h3>
+        <ul class="nav footer-nav"></ul>
+      </div>
+    </footer>
+  </body>
+</html>

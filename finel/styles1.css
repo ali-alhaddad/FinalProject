@@ -1,0 +1,17 @@
+.c {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cc img {
+  height: 250px;
+  width: 400px;
+  margin: auto;
+  color: forestgreen;
+  border-radius: 25%;
+}
+.cc {
+  justify-content: space-between;
+}
